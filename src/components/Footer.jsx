@@ -63,9 +63,7 @@ const Footer = () => {
             Email: askme@universalconnect.com
           </p>
 
-          <p className="text-sm text-[#0B2F5B] mt-2">
-            Website: universalconnect.com
-          </p>
+
         </div>
 
       </div>

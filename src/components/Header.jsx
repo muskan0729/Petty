@@ -22,7 +22,7 @@ export default function Header() {
         <ul className="hidden md:flex gap-10 text-black text-lg ">
   <li><a href="#home" className="hover:text-[#C79A2E]">HOME</a></li>
   <li><a href="#about" className="hover:text-[#C79A2E]">ABOUT US</a></li>
-  <li><a href="#Products" className="hover:text-[#C79A2E]">PRODUCTS</a></li>
+  <li><a href="#products" className="hover:text-[#C79A2E]">PRODUCTS</a></li>
   <li><a href="#order" className="hover:text-[#C79A2E]">ORDE SYSTEM</a></li>
   <li><a href="#why_choose" className="hover:text-[#C79A2E]">WHY CHOOSE US</a></li>
         </ul>
@@ -39,11 +39,11 @@ export default function Header() {
       {/* Mobile Menu */}
       {menuOpen && (
         <ul className="md:hidden flex flex-col items-center gap-4 mt-4 text-black text-sm">
-  <li><a href="#home" className="hover:text-[#C79A2E]">Home</a></li>
-  <li><a href="#about" className="hover:text-[#C79A2E]">About Us</a></li>
-  <li><a href="#Products" className="hover:text-[#C79A2E]">Products</a></li>
-  <li><a href="#order" className="hover:text-[#C79A2E]">Order System</a></li>
-  <li><a href="#why_choose" className="hover:text-[#C79A2E]">Why Choose Us</a></li>
+   <li><a href="#home" className="hover:text-[#C79A2E]">HOME</a></li>
+  <li><a href="#about" className="hover:text-[#C79A2E]">ABOUT US</a></li>
+  <li><a href="#products" className="hover:text-[#C79A2E]">PRODUCTS</a></li>
+  <li><a href="#order" className="hover:text-[#C79A2E]">ORDE SYSTEM</a></li>
+  <li><a href="#why_choose" className="hover:text-[#C79A2E]">WHY CHOOSE US</a></li>
         </ul>
       )}
     </header>

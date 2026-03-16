@@ -7,11 +7,11 @@ const Section4 = () => {
       <div className="max-w-7xl mx-auto text-center">
 
         {/* Title */}
-        <p className="text-yellow-500 font-semibold uppercase text-sm mb-2">
+        <p className="text-yellow-500 font-semibold uppercase text-sm mb-2" data-aos="fade-up">
           Order System
         </p>
 
-        <h2 className="text-4xl font-bold text-gray-800 mb-12">
+        <h2 className="text-4xl font-bold text-gray-800 mb-12" data-aos="fade-down">
           Simple & Easy Ordering Process
         </h2>
 
@@ -19,7 +19,7 @@ const Section4 = () => {
         <div className="grid md:grid-cols-3 gap-10 relative">
 
           {/* Step 1 */}
-          <div className="bg-gray-100 p-8 rounded-3xl shadow-sm hover:shadow-lg transition">
+          <div className="bg-gray-100 p-8 rounded-3xl shadow-sm hover:shadow-lg transition" data-aos="fade-down">
             <div className="flex justify-center mb-4">
               <div className="bg-yellow-400 p-4 rounded-full text-white text-2xl">
                 <FaShoppingCart />
@@ -35,7 +35,7 @@ const Section4 = () => {
           </div>
 
           {/* Step 2 */}
-          <div className="bg-gray-100 p-8 rounded-3xl shadow-sm hover:shadow-lg transition">
+          <div className="bg-gray-100 p-8 rounded-3xl shadow-sm hover:shadow-lg transition" data-aos="fade-up">
             <div className="flex justify-center mb-4">
               <div className="bg-yellow-400 p-4 rounded-full text-white text-2xl">
                 <FaEnvelope />
@@ -51,7 +51,7 @@ const Section4 = () => {
           </div>
 
           {/* Step 3 */}
-          <div className="bg-gray-100 p-8 rounded-3xl shadow-sm hover:shadow-lg transition">
+          <div className="bg-gray-100 p-8 rounded-3xl shadow-sm hover:shadow-lg transition" data-aos="fade-down">
             <div className="flex justify-center mb-4">
               <div className="bg-yellow-400 p-4 rounded-full text-white text-2xl">
                 <FaShippingFast />

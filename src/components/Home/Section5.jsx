@@ -7,7 +7,7 @@ const Section5 = () => {
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
 
         {/* LEFT IMAGE */}
-        <div className="flex justify-center">
+        <div className="flex justify-center" data-aos="fade-down">
           <img
             src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e"
             alt="dog"
@@ -16,9 +16,9 @@ const Section5 = () => {
         </div>
 
         {/* RIGHT CONTENT */}
-        <div>
+        <div data-aos="fade-up">
 
-          <p className="text-yellow-500 font-semibold uppercase text-sm mb-3">
+          <p className="text-yellow-500 font-semibold uppercase text-sm mb-3" >
             Why Choose Us
           </p>
 

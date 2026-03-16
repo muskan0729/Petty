@@ -10,7 +10,7 @@ const Section1 = () => {
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 items-center gap-10">
         
         {/* Left Content */}
-        <div className="ms-5">
+        <div className="ms-5" data-aos="fade-up">
           <p className="text-orange-500 font-semibold mb-3 ">
             Best Pet Care
           </p>
@@ -38,7 +38,7 @@ const Section1 = () => {
 
         {/* Right Image */}
  {/* Right Image */}
-<div className="flex justify-center">
+<div className="flex justify-center" data-aos="fade-up">
   <div className="relative">
 
     {/* Arch Image Container */}

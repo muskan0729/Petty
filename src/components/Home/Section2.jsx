@@ -5,7 +5,7 @@ const Section2 = () => {
     <section id="about" className="max-w-7xl mx-auto px-6 lg:px-20 py-16 grid lg:grid-cols-2 gap-12 items-center">
       
       {/* Left Images */}
-      <div className="relative flex justify-center lg:justify-start">
+      <div className="relative flex justify-center lg:justify-start" data-aos="fade-down">
         
         {/* Big Circle */}
         <div className="w-80 h-80 rounded-full overflow-hidden border-8 border-[#d4b363]">
@@ -30,7 +30,7 @@ const Section2 = () => {
       </div>
 
       {/* Right Content */}
-      <div>
+      <div data-aos="fade-down" > 
         <p className="text-yellow-500 font-semibold text-sm uppercase mb-3">
           About Us
         </p>
