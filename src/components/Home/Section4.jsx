@@ -1,60 +1,74 @@
 import React from "react";
+import { FaShoppingCart, FaEnvelope, FaShippingFast } from "react-icons/fa";
 
 const Section4 = () => {
   return (
-    <div className="bg-gray-100 py-12 md:py-16 px-4">
+    <section id="order" className="bg-white py-16 px-6 lg:px-20">
+      <div className="max-w-7xl mx-auto text-center">
 
-      {/* Title */}
-      <h2 className="text-center text-2xl md:text-3xl font-semibold mb-10">
-        Trendy Collection
-      </h2>
+        {/* Title */}
+        <p className="text-yellow-500 font-semibold uppercase text-sm mb-2">
+          Order System
+        </p>
 
-      {/* Products */}
-      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 text-center">
+        <h2 className="text-4xl font-bold text-gray-800 mb-12">
+          Simple & Easy Ordering Process
+        </h2>
 
-        {/* Product 1 */}
-        <div>
-          <img
-            src="/src/images/Component 17.png"
-            className="rounded-lg mb-3 w-full object-cover"
-          />
-          <p className="text-sm text-gray-700">Cable Chain Choker</p>
-          <p className="text-sm text-gray-500">₹20,000</p>
+        {/* Steps */}
+        <div className="grid md:grid-cols-3 gap-10 relative">
+
+          {/* Step 1 */}
+          <div className="bg-gray-100 p-8 rounded-3xl shadow-sm hover:shadow-lg transition">
+            <div className="flex justify-center mb-4">
+              <div className="bg-yellow-400 p-4 rounded-full text-white text-2xl">
+                <FaShoppingCart />
+              </div>
+            </div>
+
+            <h3 className="font-bold text-lg mb-3">Online Order</h3>
+
+            <p className="text-gray-500 text-sm">
+              Browse our catalog and place your order online by selecting
+              the required pet accessories.
+            </p>
+          </div>
+
+          {/* Step 2 */}
+          <div className="bg-gray-100 p-8 rounded-3xl shadow-sm hover:shadow-lg transition">
+            <div className="flex justify-center mb-4">
+              <div className="bg-yellow-400 p-4 rounded-full text-white text-2xl">
+                <FaEnvelope />
+              </div>
+            </div>
+
+            <h3 className="font-bold text-lg mb-3">Send Message</h3>
+
+            <p className="text-gray-500 text-sm">
+              Contact us via email or message with your order details and
+              quantity requirements.
+            </p>
+          </div>
+
+          {/* Step 3 */}
+          <div className="bg-gray-100 p-8 rounded-3xl shadow-sm hover:shadow-lg transition">
+            <div className="flex justify-center mb-4">
+              <div className="bg-yellow-400 p-4 rounded-full text-white text-2xl">
+                <FaShippingFast />
+              </div>
+            </div>
+
+            <h3 className="font-bold text-lg mb-3">Fast Shipping</h3>
+
+            <p className="text-gray-500 text-sm">
+              Once confirmed, we process your order quickly and ensure
+              timely global delivery.
+            </p>
+          </div>
+
         </div>
-
-        {/* Product 2 */}
-        <div>
-          <img
-            src="/src/images/Component 21.png"
-            className="rounded-lg mb-3 w-full object-cover"
-          />
-          <p className="text-sm text-gray-700">Link Chain Earrings</p>
-          <p className="text-sm text-gray-500">₹20,000</p>
-        </div>
-
-        {/* Product 3 */}
-        <div>
-          <img
-            src="/src/images/Component 22.png"
-            className="rounded-lg mb-3 w-full object-cover"
-          />
-          <p className="text-sm text-gray-700">Yona Signet Ring</p>
-          <p className="text-sm text-gray-500">₹20,000</p>
-        </div>
-
-        {/* Product 4 */}
-        <div>
-          <img
-            src="/src/images/Component 23.png"
-            className="rounded-lg mb-3 w-full object-cover"
-          />
-          <p className="text-sm text-gray-700">Anna Ribbed Bangle</p>
-          <p className="text-sm text-gray-500">₹20,000</p>
-        </div>
-
       </div>
-
-    </div>
+    </section>
   );
 };
 

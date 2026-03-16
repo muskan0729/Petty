@@ -1,48 +1,89 @@
 import React from "react";
-import { FaGlobe, FaBoxOpen, FaShieldAlt } from "react-icons/fa";
+import collar from "../../images/cate_1.png";
+import leash from "../../images/cate_1.png";
+import harness from "../../images/cate_1.png";
+import accessory from "../../images/cate_1.png";
 
 const Section3 = () => {
   return (
-    <div className="bg-gray-100 py-12 md:py-16 px-4">
+    <section id="products" className="bg-[#f5f5f5] py-20 px-6 lg:px-20">
 
-      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 text-center">
+      <div className="max-w-7xl mx-auto text-center mb-14">
 
-        {/* Item 1 */}
-        <div className="flex flex-col items-center space-y-3">
-          <FaGlobe className="text-3xl md:text-4xl text-gray-700" />
-          <h3 className="text-sm md:text-base font-semibold tracking-wide">
-            Highly Workable
-          </h3>
-          <p className="text-xs md:text-sm text-gray-500 max-w-[220px]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p>
+        <p className="text-[#C79A2E] font-semibold uppercase text-sm mb-2">
+          Our Products
+        </p>
+
+        <h2 className="text-4xl font-bold text-[#0B2F5B]">
+          Premium Pet Accessories
+        </h2>
+
+        <p className="text-gray-500 mt-4 max-w-2xl mx-auto">
+          Explore our range of high-quality pet accessories designed
+          for durability, comfort and safety.
+        </p>
+
+      </div>
+
+      {/* PRODUCT GRID */}
+      <div className="max-w-7xl mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+        {/* Product 1 */}
+        <div className="bg-white rounded-2xl shadow hover:shadow-xl transition overflow-hidden">
+          <img
+          //  src={collar}
+          src="https://img.freepik.com/free-vector/realistic-vector-brown-leather-dog-collar-pets-isolated-gradient-background_1284-48381.jpg?t=st=1773588117~exp=1773591717~hmac=b094818b2dfd40d07cc6326b7bebb5198e9353b00294a4ae7f92364dfa5cb8a3&w=1480"
+
+           className="h-60 w-full object-cover" alt="colloar"/>
+          <div className="p-5 text-center">
+            <h3 className="font-semibold text-lg text-[#0B2F5B]">
+              Dog Collars
+            </h3>
+          </div>
         </div>
 
-        {/* Item 2 */}
-        <div className="flex flex-col items-center space-y-3">
-          <FaBoxOpen className="text-3xl md:text-4xl text-gray-700" />
-          <h3 className="text-sm md:text-base font-semibold tracking-wide">
-            100% Eco Friendly
-          </h3>
-          <p className="text-xs md:text-sm text-gray-500 max-w-[220px]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p>
+        {/* Product 2 */}
+        <div className="bg-white rounded-2xl shadow hover:shadow-xl transition overflow-hidden">
+          <img 
+          // src={leash} 
+          src="https://img.freepik.com/free-photo/shiba-inu-dog-taking-walk_23-2149478809.jpg?t=st=1773588804~exp=1773592404~hmac=c088ba7bb635433349e04ebe32b3c5da767d7db4d9e5b33e488fc97ef0c6b513&w=1480"
+          className="h-60 w-full object-cover"  alt="colloar"/>
+          <div className="p-5 text-center">
+            <h3 className="font-semibold text-lg text-[#0B2F5B]">
+              Pet Leashes
+            </h3>
+          </div>
         </div>
 
-        {/* Item 3 */}
-        <div className="flex flex-col items-center space-y-3">
-          <FaShieldAlt className="text-3xl md:text-4xl text-gray-700" />
-          <h3 className="text-sm md:text-base font-semibold tracking-wide">
-            Secure Payment
-          </h3>
-          <p className="text-xs md:text-sm text-gray-500 max-w-[220px]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p>
+        {/* Product 3 */}
+        <div className="bg-white rounded-2xl shadow hover:shadow-xl transition overflow-hidden">
+          <img 
+          // src={harness}
+          src="https://img.freepik.com/premium-psd/dog-leash-mockup-design_23-2150792294.jpg?w=1480"
+           className="h-60 w-full object-cover"  alt="colloar"/>
+          <div className="p-5 text-center">
+            <h3 className="font-semibold text-lg text-[#0B2F5B]">
+              Dog Harness
+            </h3>
+          </div>
+        </div>
+
+        {/* Product 4 */}
+        <div className="bg-white rounded-2xl shadow hover:shadow-xl transition overflow-hidden">
+          <img 
+          // src={accessory}
+          src="https://img.freepik.com/free-photo/top-view-pet-accessories_23-2150930409.jpg?t=st=1773588976~exp=1773592576~hmac=127a4a2217482e0fa406266d4fce63ccb6e6aff7b0364aa44ad54c3fae4fe7ad&w=1480"
+           className="h-60 w-full object-cover"  alt="colloar"/>
+          <div className="p-5 text-center">
+            <h3 className="font-semibold text-lg text-[#0B2F5B]">
+              Pet Accessories
+            </h3>
+          </div>
         </div>
 
       </div>
 
-    </div>
+    </section>
   );
 };
 

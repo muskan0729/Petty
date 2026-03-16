@@ -1,59 +1,80 @@
 import React from "react";
+import logo from "../images/Logo.webp"; // your logo path
+
 
 const Footer = () => {
   return (
-    <footer className="bg-[#a29875] text-white pt-12 ">
+    <footer className="bg-gradient-to-br from-[#fff0f0] via-[#ffd6d6] to-[#ff9393] text-white pt-14">
 
-      <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
+      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-10">
 
-        {/* My Account */}
-        <div>
-          <h3 className="font-semibold mb-4 tracking-wide">MY ACCOUNT</h3>
-          <ul className="space-y-2 text-sm text-gray-200">
-            <li className="hover:text-white cursor-pointer">Career at Ely</li>
-            <li className="hover:text-white cursor-pointer">About Us</li>
-            <li className="hover:text-white cursor-pointer">Sustainability</li>
-            <li className="hover:text-white cursor-pointer">Press</li>
-          </ul>
-        </div>
+      <div>
+          {/* Logo */}
+          <img 
+            src={logo} 
+            alt="UEC Logo"
+            className="h-25 mb-4"
+          />
 
-        {/* Help */}
-        <div>
-          <h3 className="font-semibold mb-4 tracking-wide">HELP</h3>
-          <ul className="space-y-2 text-sm text-gray-200">
-            <li className="hover:text-white cursor-pointer">FAQ</li>
-            <li className="hover:text-white cursor-pointer">Shipping</li>
-            <li className="hover:text-white cursor-pointer">Returns</li>
-            <li className="hover:text-white cursor-pointer">Order Status</li>
-          </ul>
-        </div>
-
-        {/* Follow Us */}
-        <div>
-          <h3 className="font-semibold mb-4 tracking-wide">FOLLOW US ON</h3>
-          <ul className="space-y-2 text-sm text-gray-200">
-            <li className="hover:text-white cursor-pointer">Twitter</li>
-            <li className="hover:text-white cursor-pointer">Facebook</li>
-            <li className="hover:text-white cursor-pointer">Google Plus</li>
-            <li className="hover:text-white cursor-pointer">Instagram</li>
-          </ul>
-        </div>
-
-        {/* About Us */}
-        <div>
-          <h3 className="font-semibold mb-4 tracking-wide">ABOUT US</h3>
-          <p className="text-sm text-gray-200">
-            Email: purity_jewel@gmail.com
+          <p className="text-sm text-[#0B2F5B] leading-relaxed">
+            Premium Leashes, Collars & Harness Manufacturer in India.
+            We export high-quality pet accessories designed for durability,
+            comfort and safety for the global pet market.
           </p>
-          <p className="text-sm text-gray-200 mt-2">
-            Phone: 0987654321
+        </div>
+
+
+        {/* Products */}
+        <div>
+          <h3 className="font-semibold text-lg mb-4 text-[#0B2F5B]">Products</h3>
+
+          <ul className="space-y-2 text-sm text-[#0B2F5B]">
+            <li className="hover:text-[#0B2F5B] cursor-pointer">Dog Collars</li>
+            <li className="hover:text-[#0B2F5B] cursor-pointer">Pet Leashes</li>
+            <li className="hover:text-[#0B2F5B] cursor-pointer">Dog Harness</li>
+            <li className="hover:text-[#0B2F5B] cursor-pointer">Custom Pet Accessories</li>
+          </ul>
+        </div>
+
+
+        {/* Why Choose Us */}
+        <div>
+          <h3 className="font-semibold text-lg mb-4 text-[#0B2F5B]" >Why Choose Us</h3>
+
+          <ul className="space-y-2 text-sm text-[#0B2F5B]">
+            <li>Merchant Exporter</li>
+            <li>Competitive Bulk Pricing</li>
+            <li>Strict Quality Inspection</li>
+            <li>Timely Shipment</li>
+            <li>Custom Packaging</li>
+          </ul>
+        </div>
+
+
+        {/* Contact */}
+        <div>
+          <h3 className="font-semibold text-lg mb-4 text-[#0B2F5B]">Get In Touch</h3>
+
+          <p className="text-sm text-[#0B2F5B]">
+            Phone: 9152668333
+          </p>
+
+          <p className="text-sm text-[#0B2F5B] mt-2">
+            Email: askme@universalconnect.com
+          </p>
+
+          <p className="text-sm text-[#0B2F5B] mt-2">
+            Website: universalconnect.com
           </p>
         </div>
 
       </div>
 
+
       {/* Bottom Bar */}
-      <div className="mt-10 bg-[#6f6852] h-8"></div>
+      <div className="mt-12 bg-[#6f6852] py-4 text-center text-sm text-[#0B2F5B]">
+        © 2026 UEC Pet Accessories. All Rights Reserved.
+      </div>
 
     </footer>
   );
