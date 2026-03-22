@@ -23,7 +23,7 @@ export default function Header() {
   <li><a href="#home" className="hover:text-[#C79A2E]">HOME</a></li>
   <li><a href="#about" className="hover:text-[#C79A2E]">ABOUT US</a></li>
   <li><a href="#products" className="hover:text-[#C79A2E]">PRODUCTS</a></li>
-  <li><a href="#order" className="hover:text-[#C79A2E]">ORDE SYSTEM</a></li>
+  <li><a href="#order" className="hover:text-[#C79A2E]">ORDER SYSTEM</a></li>
   <li><a href="#why_choose" className="hover:text-[#C79A2E]">WHY CHOOSE US</a></li>
         </ul>
 

@@ -1,5 +1,7 @@
 import React from "react";
 import { FaGlobe, FaBoxOpen, FaTags, FaCheckCircle, FaShippingFast, FaGift } from "react-icons/fa";
+import why_choose from "../../images/why_choose.png";
+
 
 const Section5 = () => {
   return (
@@ -9,8 +11,9 @@ const Section5 = () => {
         {/* LEFT IMAGE */}
         <div className="flex justify-center" data-aos="fade-down">
           <img
-            src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e"
-            alt="dog"
+          src={why_choose}
+            // src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e"
+            alt="why choose us image"
             className="rounded-3xl shadow-lg w-[400px] object-cover"
           />
         </div>
@@ -31,7 +34,7 @@ const Section5 = () => {
 
             <div className="flex items-start gap-3">
               <FaGlobe className="text-yellow-500 text-xl mt-1"/>
-              <p className="text-gray-700 font-medium">Merchant Exporter</p>
+              <p className="text-gray-700 font-medium">Exporter</p>
             </div>
 
             <div className="flex items-start gap-3">

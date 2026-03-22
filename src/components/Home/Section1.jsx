@@ -1,6 +1,6 @@
 import React from "react";
-// import dog from "../../images/dog.jpg"; 
-import dog from "../../images/banne1.png"; 
+import dog from "../../images/Dikoo-Pa2w.jpeg"; 
+// import dog from "../../images/banne1.png"; 
 
 
 const Section1 = () => {
@@ -43,12 +43,12 @@ const Section1 = () => {
 
     {/* Arch Image Container */}
     {/* <div className="w-[360px] h-[460px] bg-yellow-400 border-[6px] border-white overflow-hidden rounded-t-[200px] rounded-b-[200px]"> */}
-        <div className="w-[360px] h-[460px] bg-[#f5f6f8] border-[6px] border-white  overflow-hidden rounded-t-[200px] rounded-b-[200px]">
+        <div className="w-[360px] h-[460px] bg-[#fff] border-[6px] border-white  overflow-hidden rounded-t-[200px] rounded-b-[200px]">
 
       <img
         src={dog}
         alt="pet"
-        className="w-full h-full object-contain pb-9 pr-1"
+        className="w-full h-full object-cover pt-4 pr-1"
       />
     </div>
 
@@ -57,19 +57,6 @@ const Section1 = () => {
 
 
       </div>
-        {/* WAVE */}
-  {/* <div className="absolute bottom-0 left-0 w-full overflow-hidden leading-none">
-    <svg
-      className="relative block w-full h-[120px]"
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 1440 320"
-    >
-      <path
-        fill="#ffffff"
-        d="M0,192L60,170.7C120,149,240,107,360,112C480,117,600,171,720,197.3C840,224,960,224,1080,197.3C1200,171,1320,117,1380,90.7L1440,64V320H0Z"
-      ></path>
-    </svg>
-  </div> */}
     </section>
   );
 };

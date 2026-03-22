@@ -13,7 +13,8 @@ const Footer = () => {
           <img 
             src={logo} 
             alt="UEC Logo"
-            className="h-25 mb-4"
+            className="h-28"
+            style={{border:"0px solid black"}}
           />
 
           <p className="text-sm text-[#0B2F5B] leading-relaxed">
@@ -66,7 +67,7 @@ const Footer = () => {
 <div className="flex gap-4 mt-4">
 
   {/* Facebook */}
-  <a href="#" className="bg-white p-2 rounded-full hover:bg-[#0B2F5B] group transition">
+  <a href="https://www.facebook.com/people/Sunita-Falke/pfbid0Azz9D3nK2KKSXPZ9ssXUE46aS236vw36e4DrEBo4a3vkNRbPH42ibXowAT7EwSDKl/" className="bg-white p-2 rounded-full hover:bg-[#0B2F5B] group transition">
     <svg
       className="w-5 h-5 text-[#0B2F5B] group-hover:text-white"
       fill="currentColor"
@@ -77,7 +78,7 @@ const Footer = () => {
   </a>
 
   {/* Instagram */}
-  <a href="#" className="bg-white p-2 rounded-full hover:bg-[#0B2F5B] group transition">
+  <a href="https://www.instagram.com/uec_dikoopaws/#" className="bg-white p-2 rounded-full hover:bg-[#0B2F5B] group transition">
     <svg
       className="w-5 h-5 text-[#0B2F5B] group-hover:text-white"
       fill="currentColor"
@@ -99,7 +100,7 @@ const Footer = () => {
   </a>
 
   {/* Twitter */}
-  <a href="#" className="bg-white p-2 rounded-full hover:bg-[#0B2F5B] group transition">
+  {/* <a href="#" className="bg-white p-2 rounded-full hover:bg-[#0B2F5B] group transition">
     <svg
       className="w-5 h-5 text-[#0B2F5B] group-hover:text-white"
       fill="currentColor"
@@ -107,7 +108,7 @@ const Footer = () => {
     >
       <path d="M22.46 6c-.77.35-1.6.58-2.46.69a4.3 4.3 0 001.88-2.37 8.59 8.59 0 01-2.73 1.04A4.28 4.28 0 0016.07 4c-2.37 0-4.3 1.92-4.3 4.3 0 .34.04.67.11.99A12.14 12.14 0 013 5.16a4.3 4.3 0 001.33 5.74 4.23 4.23 0 01-1.95-.54v.05c0 2.08 1.48 3.82 3.44 4.21a4.28 4.28 0 01-1.94.07 4.3 4.3 0 004.01 2.98A8.6 8.6 0 012 19.54 12.13 12.13 0 008.56 21c7.88 0 12.2-6.53 12.2-12.2l-.01-.56A8.7 8.7 0 0022.46 6z" />
     </svg>
-  </a>
+  </a> */}
 
 </div>
 
@@ -118,7 +119,7 @@ const Footer = () => {
 
 
       {/* Bottom Bar */}
-      <div className="mt-12 bg-[#6f6852] py-4 text-center text-sm text-[#0B2F5B]">
+      <div className="mt-12 bg-[#ffebeb] py-4 text-center text-sm text-[#0B2F5B]">
         © 2026 UEC Pet Accessories. All Rights Reserved.
       </div>
 

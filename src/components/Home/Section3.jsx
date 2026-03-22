@@ -73,7 +73,7 @@ const Section3 = () => {
           <img 
           src={accessory}
           // src="https://img.freepik.com/free-photo/top-view-pet-accessories_23-2150930409.jpg?t=st=1773588976~exp=1773592576~hmac=127a4a2217482e0fa406266d4fce63ccb6e6aff7b0364aa44ad54c3fae4fe7ad&w=1480"
-           className="h-60 w-full object-contain bg-[#ebf0e9]"  alt="colloar"/>
+           className="h-60 w-full object-cover bg-[#f0f7f2]"  alt="pet accessories"/>
           <div className="p-5 text-center">
             <h3 className="font-semibold text-lg text-[#0B2F5B]">
               Pet Accessories
