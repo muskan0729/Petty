@@ -43,7 +43,7 @@ const Footer = () => {
           <h3 className="font-semibold text-lg mb-4 text-[#0B2F5B]" >Why Choose Us</h3>
 
           <ul className="space-y-2 text-sm text-[#0B2F5B]">
-            <li>Merchant Exporter</li>
+            <li> Exporter</li>
             <li>Competitive Bulk Pricing</li>
             <li>Strict Quality Inspection</li>
             <li>Timely Shipment</li>
@@ -89,7 +89,7 @@ const Footer = () => {
   </a>
 
   {/* LinkedIn */}
-  <a href="#" className="bg-white p-2 rounded-full hover:bg-[#0B2F5B] group transition">
+  <a href="http://www.linkedin.com/in/sunita-falke-25b9503b5" className="bg-white p-2 rounded-full hover:bg-[#0B2F5B] group transition">
     <svg
       className="w-5 h-5 text-[#0B2F5B] group-hover:text-white"
       fill="currentColor"

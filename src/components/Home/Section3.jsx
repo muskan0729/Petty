@@ -2,7 +2,7 @@ import React from "react";
 import collar from "../../images/dog_collar.png";
 import leash from "../../images/leashes.png";
 import harness from "../../images/harness.png";
-import accessory from "../../images/pet_access.png";
+import accessory from "../../images/pet_access_1.png";
 
 const Section3 = () => {
   return (
