@@ -9,17 +9,18 @@ export default function Header() {
   return (
     // <header className="bg-gradient-to-r from-[#fff4dc] to-[#e8d3a5] px-6 py-3">
       // <header className="px-6 py-3 bg-gradient-to-br from-[#ffe9e9] via-[#ffe9e9] to-[#ffe9e9] h-20">
-            <header className="px-6 py-3 bg-gradient-to-br from-[#f7f5f5] via-[#fff8f8] to-[#fbf0f0] min-h-[70px]">
+            <header className="px-1 py-1 bg-gradient-to-br from-[#f7f5f5] via-[#fff8f8] to-[#fbf0f0] ">
 
-      <div className="max-w-[1200px] mx-auto flex items-center justify-between gap-12">
+      <div className="max-w-[1200px] mx-auto flex items-center justify-between gap-12 "
+      style={{border:"0px solid black"}}>
 
         {/* Logo */}
-<div className="w-28 md:w-32">
-          <img src={logo}  alt="UE logo" className="w-full object-contain"/>
+<div className="w-28 md:w-32 p-0 m-0" style={{border:"0px solid black"}}>
+          <img src={logo}  alt="UE logo" className="w-full object-cover"/>
         </div>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex gap-10 text-black text-lg ">
+        <ul className="hidden md:flex gap-10 text-black text-lg " style={{border:"0px solid black"}}>
   <li><a href="#home" className="hover:text-[#C79A2E]">HOME</a></li>
   <li><a href="#about" className="hover:text-[#C79A2E]">ABOUT US</a></li>
   <li><a href="#products" className="hover:text-[#C79A2E]">PRODUCTS</a></li>

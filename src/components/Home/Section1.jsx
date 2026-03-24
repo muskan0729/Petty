@@ -27,7 +27,7 @@ const Section1 = () => {
           {/* <p className="text-gray-600 mb-6"> */}
           <p className="text-sm sm:text-base text-gray-600 mb-4">
 
-           Trusted supplier of high-quality pet food, toys, accessories & grooming products.
+           Trusted supplier of high-quality pet toys, accessories & grooming products.
           </p>
 
           <div className="flex gap-4">

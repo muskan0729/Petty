@@ -6,13 +6,26 @@ const Section2 = () => {
   return (
     <section
       id="about"
-      className="max-w-7xl mx-auto px-6 lg:px-20 py-16 grid lg:grid-cols-2 gap-12 items-center"
+      className="max-w-7xl mx-auto px-6 lg:px-20 py-16 grid grid-cols-1 lg:grid-cols-2
+ gap-12 items-center"
     >
       
+
+      <div className="block lg:hidden text-left mb-4">
+<p className="text-yellow-500 font-semibold text-sm uppercase mb-3">
+  About Us
+</p>
+
+<h2 className="text-3xl sm:text-4xl lg:text-4xl font-bold text-gray-800 mb-4 leading-tight">
+  Welcome To Dikoo Paws
+</h2>
+
+</div>
+
       {/* Left Images */}
 <div
-  className="relative flex justify-center items-center 
-  w-full max-w-[380px] sm:max-w-[420px] 
+  className="relative flex justify-center items-start  pb-40 pr-20
+  w-full max-w-[380px]  max-h-[300px] sm:max-w-[420px] 
   mx-auto lg:mx-0 lg:justify-start
   overflow-visible"
   // style={{ border: "2px solid black" }}
@@ -32,7 +45,7 @@ const Section2 = () => {
         <div
           className="absolute 
           bottom-0 right-0
-          translate-x-[20%] translate-y-[20%]
+          translate-x-[10%] translate-y-[10%]
           sm:translate-x-[25%] sm:translate-y-[25%]
           md:translate-x-[30%] md:translate-y-[30%]
           lg:translate-x-[25%] lg:translate-y-[25%]
@@ -50,6 +63,7 @@ const Section2 = () => {
 
       {/* Right Content */}
       <div data-aos="fade-down">
+        <div className="hidden lg:block">
         <p className="text-yellow-500 font-semibold text-sm uppercase mb-3">
           About Us
         </p>
@@ -57,7 +71,7 @@ const Section2 = () => {
         <h2 className="text-3xl sm:text-4xl lg:text-4xl font-bold text-gray-800 mb-4 leading-tight">
           Welcome To Dikoo Paws
         </h2>
-
+</div>
         <p className="text-gray-500 mb-6 max-w-lg">
           We are a pet product exporter specializing in premium-quality leashes,
           collars, and harnesses for the global pet market. Partnering with

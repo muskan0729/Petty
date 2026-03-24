@@ -6,7 +6,8 @@ const Footer = () => {
   return (
     <footer className="bg-gradient-to-br from-[#fff0f0] via-[#ffd6d6] to-[#ff9393] text-white pt-14">
 
-      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-10">
+      {/* <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-10"> */}
+<div className="max-w-7xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
 
       <div>
           {/* Logo */}
@@ -57,11 +58,11 @@ const Footer = () => {
           <h3 className="font-semibold text-lg mb-4 text-[#0B2F5B]">Get In Touch</h3>
 
           <p className="text-sm text-[#0B2F5B]">
-            Phone: 9152668333
+            Phone: +91 9152 66 3733
           </p>
 
           <p className="text-sm text-[#0B2F5B] mt-2">
-            Email: askme@universalconnect.com
+            Email: Askme@universaleximconnect.com
           </p>
 {/* Social Icons */}
 <div className="flex gap-4 mt-4">
@@ -89,7 +90,9 @@ const Footer = () => {
   </a>
 
   {/* LinkedIn */}
-  <a href="http://www.linkedin.com/in/sunita-falke-25b9503b5" className="bg-white p-2 rounded-full hover:bg-[#0B2F5B] group transition">
+  <a href=
+  "https://www.linkedin.com/in/universal-exim-connect-25b9503b5?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+   className="bg-white p-2 rounded-full hover:bg-[#0B2F5B] group transition">
     <svg
       className="w-5 h-5 text-[#0B2F5B] group-hover:text-white"
       fill="currentColor"
