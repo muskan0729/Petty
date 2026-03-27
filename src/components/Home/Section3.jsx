@@ -1,7 +1,7 @@
 import React from "react";
-import collar from "../../images/dog_collar1.jpg";
-import leash from "../../images/leashes.png";
-import harness from "../../images/harnesses.png";
+import collar from "../../images/dog_collar1.png";
+import leash from "../../images/harnesses.png";
+import harness from "../../images/dog_harnesses.png";
 import accessory from "../../images/pet_access (2).png";
 
 const Section3 = () => {
@@ -32,9 +32,7 @@ const Section3 = () => {
         <div className="bg-white rounded-2xl shadow hover:shadow-xl transition overflow-hidden" data-aos="fade-up">
           <img
            src={collar}
-          // src="https://img.freepik.com/free-vector/realistic-vector-brown-leather-dog-collar-pets-isolated-gradient-background_1284-48381.jpg?t=st=1773588117~exp=1773591717~hmac=b094818b2dfd40d07cc6326b7bebb5198e9353b00294a4ae7f92364dfa5cb8a3&w=1480"
-
-           className="h-60 w-full object-contain bg-white" alt="colloar"/>
+           className="h-60 w-full object-cover bg-white" alt="colloar"/>
           <div className="p-5 text-center">
             <h3 className="font-semibold text-lg text-[#0B2F5B]">
               Dog Collars
@@ -73,7 +71,7 @@ const Section3 = () => {
           <img 
           src={accessory}
           // src="https://img.freepik.com/free-photo/top-view-pet-accessories_23-2150930409.jpg?t=st=1773588976~exp=1773592576~hmac=127a4a2217482e0fa406266d4fce63ccb6e6aff7b0364aa44ad54c3fae4fe7ad&w=1480"
-           className="h-60 w-full object-contain bg-[#f0f7f2]"  alt="pet accessories"/>
+           className="h-60 w-full object-cover bg-[#f0f7f2]"  alt="pet accessories"/>
           <div className="p-5 text-center">
             <h3 className="font-semibold text-lg text-[#0B2F5B]">
               Pet Accessories

@@ -15,22 +15,22 @@ export default function Header() {
       style={{border:"0px solid black"}}>
 
         {/* Logo */}
-<div className="w-28 md:w-32 p-0 m-0" style={{border:"0px solid black"}}>
+<div className="w-45 md:w-32 p-0 m-0" style={{border:"0px solid black"}}>
           <img src={logo}  alt="UE logo" className="w-full object-cover"/>
         </div>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-10 text-black text-lg " style={{border:"0px solid black"}}>
-  <li><a href="#home" className="hover:text-[#C79A2E]">HOME</a></li>
-  <li><a href="#about" className="hover:text-[#C79A2E]">ABOUT US</a></li>
-  <li><a href="#products" className="hover:text-[#C79A2E]">PRODUCTS</a></li>
-  <li><a href="#order" className="hover:text-[#C79A2E]">ORDER SYSTEM</a></li>
-  <li><a href="#why_choose" className="hover:text-[#C79A2E]">WHY CHOOSE US</a></li>
+  <li><a href="#home" className="hover:text-[#C79A2E]">Home</a></li>
+  <li><a href="#about" className="hover:text-[#C79A2E]">About Us</a></li>
+  <li><a href="#products" className="hover:text-[#C79A2E]">Products</a></li>
+  <li><a href="#order" className="hover:text-[#C79A2E]">Order System</a></li>
+  <li><a href="#why_choose" className="hover:text-[#C79A2E]">Why Choose Us</a></li>
         </ul>
 
         {/* Mobile Hamburger */}
         <div
-          className="md:hidden text-black text-3xl cursor-pointer"
+          className="md:hidden text-black text-3xl cursor-pointer pr-3"
           onClick={() => setMenuOpen(!menuOpen)}
         >
           ☰
